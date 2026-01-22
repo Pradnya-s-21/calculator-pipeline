@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: ' '
+                git branch: 'main', url: 'https://github.com/Pradnya-s-21/calculator-pipeline.git'
             }
         }
 
@@ -41,3 +41,4 @@ pipeline {
         }
     }
 }
+
